@@ -1,0 +1,87 @@
+:root{
+    --topheader: #df473a;
+    --header: #df473a;
+    --mainbg: #fff8ce;
+    --mainbg2: #f5eedc;
+    --mainbg3: #f9f5ea;
+    --green: #999e03;
+    --footerbg1: #66635e ;
+    --footerbg2: #5c5954 ;
+    --footerbg3: #413e39 ;
+    --headerfont: 'Lato', sans-serif;
+    --mainheaderfont: 'Titillium Web', sans-serif;
+    --clientlogo1: 'PT Sans', sans-serif;
+    --clientlogo2: 'Italianno', cursive;
+    --clientlogo3:'Teko', sans-serif;
+    --clientlogo4: 'Yellowtail', cursive;
+    --clientlogo5: 'Eagle Lake', cursive;
+    --text: 'Open Sans', sans-serif;
+}   
+
+/* GeneralRules */
+
+/* Header Rules */
+.section-one-header{
+    background-color: var(--topheader);
+}
+.section-two-header{
+    background: var(--header);
+}
+.logo{
+    font-family: 'Lato', sans-serif;
+}
+
+/* Main Rules */
+.section-one-main{
+    background: var(--mainbg) ;
+}
+.section-three-main{
+    background: var(--mainbg2);
+}
+.section-four-main{
+    background: var(--mainbg3);
+}
+.section-four-main .header-main {
+    font-family: 'Titillium Web', sans-serif;
+}
+.offer-text{
+
+}
+.offer-name{
+
+}
+/* Footer Rules */
+.section-one-footer{
+    background: var(--footerbg1);
+}
+.section-two-footer{
+    background: var(--footerbg2);
+}
+.section-three-footer{
+    background: var(--footerbg3);
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.button{
+    background-color: lightgrey;
+    height: 32px;
+}
+.icon{
+    font-size: 12px;
+}
+.main .section-four-main .icon{
+    font-size: 40px;
+}
+.main .section-four-main .link-div .icon{
+    font-size: 12px;
+}
+.main .section-four-main .text{
+    margin: 0px;
+    font-size: 12px;
+}
