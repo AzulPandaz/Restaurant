@@ -24,42 +24,181 @@
 .section-one-header{
     background-color: var(--topheader);
 }
+
+.top-header-nav-icon-list .icon{
+    color: white;
+    font-size: 18px;
+}
+
 .section-two-header{
     background: var(--header);
 }
+
 .logo{
     font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.button-header{
+    background: var(--header);
+    color: white;
+    font-family: var(--text);
+}
+
+.button-header:hover{
+    transition: ease 1s;
+    background-color:beige;
+    color: var(--header);
 }
 
 /* Main Rules */
 .section-one-main{
     background: var(--mainbg) ;
 }
+
+.slogan{
+    font-family: var(--mainheaderfont);
+}
+
+.top-side-cover{
+    height: 100%;
+    width: 10%;
+    background: black;
+    position: absolute;
+    z-index: 2;
+    left: 0%;
+    top: 0%;
+    opacity: 0.8;
+}
+
+.bottom-side-cover{
+    height: 100%;
+    width: 10%;
+    background: black;
+    position: absolute;
+    z-index: 2;
+    right: 0%;
+    top: 0%;
+    opacity: 0.8;
+}
+
+.c-next , .c-prev{
+    z-index: 3;
+}
+
 .section-three-main{
     background: var(--mainbg2);
 }
+
+.section-three-main .header-main{
+    color: var(--header);
+    font-family: var(--headerfont);
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-body-text{
+    font-family: var(--text);
+    font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
+    margin: 0px;
+    padding: 0px;
+}
+
 .section-four-main{
     background: var(--mainbg3);
 }
+
+.section-four-main p{
+    margin: 0px;
+}
+
+.offer-name{
+    font-family: var(--clientlogo3);
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+    
+}
+
+.offer-text{
+    font-family: var(--clientlogo3);
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+.link-div .icon, .link-div a{
+    color: var(--header);
+    font-family: var(--clientlogo1);
+}
+
+.description-text{
+    font-size: calc(8px + (10 - 8) * ((100vw - 300px) / (1600 - 300)));
+}
+
 .section-four-main .header-main {
     font-family: 'Titillium Web', sans-serif;
 }
-.offer-text{
 
+.section-four-main .icon, .offer-text, .offer-name{
+    color: var(--green);
 }
-.offer-name{
 
-}
+
+
 /* Footer Rules */
 .section-one-footer{
     background: var(--footerbg1);
 }
+
+.client-text{
+    font-size: 25px;
+}
+
+.client-logo-one{
+    font-family: var(--clientlogo1);
+}
+
+.client-logo-two{
+    font-family: var(--clientlogo2);
+}
+
+.client-logo-three{
+    font-family: var(--clientlogo3);
+}
+
+.client-logo-four{
+    font-family: var(--clientlogo4);
+}
+
+.client-logo-five{
+    font-family: var(--clientlogo5);
+}
+
 .section-two-footer{
     background: var(--footerbg2);
+}
+.section-two-footer .link-div a, .section-two-footer .link-div .icon{
+    color: white;
+}
+
+.white-text{
+    color: white;
 }
 .section-three-footer{
     background: var(--footerbg3);
 }
+
+.colophon-text{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 .icon {
     display: inline-block;
     width: 1em;
@@ -79,9 +218,5 @@
     font-size: 40px;
 }
 .main .section-four-main .link-div .icon{
-    font-size: 12px;
-}
-.main .section-four-main .text{
-    margin: 0px;
     font-size: 12px;
 }
