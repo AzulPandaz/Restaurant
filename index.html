@@ -18,7 +18,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@900&family=Open+Sans&family=PT+Sans:wght@700&family=Roboto+Slab&family=Teko:wght@600&family=Titillium+Web:wght@200&family=Yellowtail&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <title>Restaurant</title>
 </head>
@@ -28,8 +28,8 @@
     <header class="header" id="header">
         <section class="section section-one-header">
             <div class="container">
-                <div class="row d-flex justify-content-end">
-                    <div class="col-2 ">
+                <div class="row d-flex justify-content-center justify-content-lg-end">
+                    <div class="col-6 col-lg-2 ">
                         <div class="header-nav">
                             <ul class="nav top-header-nav-icon-list justify-content-between">
                                 <li class="top-header-nav-icon-item">
@@ -65,13 +65,32 @@
         </section>
         <section class="section section-two-header">
             <div class="container">
-                <div class="row">
-                    <div class="col">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center text-lg-left col-lg-5 ">
                         <h1 class="logo header">
                             Restaurant
                         </h1>
                     </div>
-                    <div class="col">
+                    <div class="dropdown header-drop-down">
+                        <!-- only visable in moblie -->
+                        <div class="col-12 d-block-sm d-md-none ">
+                            <!-- Example single danger button -->
+                            <div class="input-group">
+                                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="About">
+                                <div class="input-group-append">
+                                <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="https://www.leagueoflegends.com/en-us/">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Separated link</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-none d-md-block col-lg-7 ">
                         <div class="header-nav">
                             <ul class="nav lower-header-nav-list justify-content-around ">
                                 <li class="lower-nav-item">
@@ -104,18 +123,26 @@
         <section class="section main-section section-one-main">
             <!-- This is for the sologan and searchbar -->
             <div class="container">
-                <div class="row">
-                    <div class="col-3">
+                <div class="row text-center">
+                    <div class="col-12 col-lg-3">
                         <p class="slogan text main-text">Top quality ingredients only in our kitchen!</p>
                     </div>
-                    <div class="col">
-                        <div class="row text-center justify-content-end">
-                            <form action="search">
+                    <div class="col-12 col-lg-9">
+                        <div class="row text-center justify-content-center justify-content-lg-end">
+                            <div class="input-group search-form-header">
+                                <input type="text" class="form-control input-background" aria-label="Text input with dropdown button">
+                                <div class="input-group-append">
+                                <button class="btn button-header button-search" type="button" aria-haspopup="true" aria-expanded="false"><svg class="icon icon-search">
+                                    <use xlink:href="#icon-search"></use>
+                                </svg></button>
+                                </div>
+                            </div>
+                            <!-- <form action="search">
                                 <input type="text" name="search" id="search" placeholder="search" class="col-6">
                                 <button type="submit" class="col-2 button btn"><svg class="icon icon-search">
                                         <use xlink:href="#icon-search"></use>
                                     </svg></button>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                 </div>
@@ -155,7 +182,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Need margin qurey so that they are evenly spaced -->
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="card">
                             <img src="Media/open24.PNG " class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -164,7 +191,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="card">
                             <img src="Media/burger.PNG" class="card-img-top img-fluid" alt="">
                             <div class="card-body">
@@ -173,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="card">
                             <img src="Media/chef.PNG" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -182,7 +209,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="card">
                             <img src="Media/ourstory.PNG" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -191,7 +218,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="card">
                             <img src="Media/martini.PNG" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -200,7 +227,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4">
                         <div class="card">
                             <img src="Media/freshidea.PNG" class="card-img-top img-fluid" alt="...">
                             <div class="card-body">
@@ -217,16 +244,12 @@
             <!-- Menu and info section -->
             <!-- Make one then copy them 2x -->
             <div class="container">
-                <div class="row">
-                    <div class="col-8">
                         <h2 class="header-main">
                             Reservations and orders may be placed anytime
                         </h2>
-                    </div>
-                </div>
                 <div class="row">
                     <!-- start copy here -->
-                    <div class="col-4">
+                    <div class="col-6 col-lg-4">
                         <div class="row">
                             <div class="icon-with-text col-10 d-flex">
                                 <svg class="icon icon-mug">
@@ -238,7 +261,8 @@
                                         <p class="offer-name main-text text col-12">Lorem, ipsum dolor.</p>
                                     </div>
                                     <div class="description-text">
-                                        <p class="main-text description-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                        <p class="main-text description-text">Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing
                                             elit. Autem sunt blanditiis illo? At nisi nihil ducimus consectetur natus
                                             accusamus minus quos officiis. Velit praesentium dicta minima deleniti,
                                             beatae omnis facilis temporibus saepe sunt accusamus dignissimos sint modi
@@ -255,7 +279,7 @@
                         </div>
                     </div>
                     <!-- stop it here -->
-                    <div class="col-4">
+                    <div class="col-6 col-lg-4">
                         <div class="row">
                             <div class="icon-with-text col-10 d-flex">
                                 <svg class="icon icon-spoon-knife">
@@ -267,7 +291,8 @@
                                         <p class="offer-name main-text text col-12">Lorem, ipsum.</p>
                                     </div>
                                     <div class="description-text">
-                                        <p class="main-text description-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                        <p class="main-text description-text">Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing
                                             elit. Autem sunt blanditiis illo? At nisi nihil ducimus consectetur natus
                                             accusamus minus quos officiis. Velit praesentium dicta minima deleniti,
                                             beatae omnis facilis temporibus saepe sunt accusamus dignissimos sint modi
@@ -283,7 +308,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="d-none d-md-block col-lg-4">
                         <div class="row">
                             <div class="icon-with-text col-10 d-flex">
                                 <svg class="icon icon-heart">
@@ -295,7 +320,8 @@
                                         <p class="offer-name main-text text col-12">Lorem, ipsum.</p>
                                     </div>
                                     <div class="description-text">
-                                        <p class="main-text description-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                        <p class="main-text description-text">Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing
                                             elit. Autem sunt blanditiis illo? At nisi nihil ducimus consectetur natus
                                             accusamus minus quos officiis. Velit praesentium dicta minima deleniti,
                                             beatae omnis facilis temporibus saepe sunt accusamus dignissimos sint modi
@@ -322,11 +348,11 @@
                 <div class="row justify-content-around text-center">
                     <div class="col-10">
                         <div class="row">
-                            <p class="client-text client-logo-one col">Client Logo</p>
-                            <p class="client-text client-logo-two col">Client Logo</p>
-                            <p class="client-text client-logo-three col">Client Logo</p>
-                            <p class="client-text client-logo-four col">Client Logo</p>
-                            <p class="client-text client-logo-five col">Client Logo</p>
+                            <p class="client-text client-logo-one col-6 col-lg">Client Logo</p>
+                            <p class="client-text client-logo-two col-6 col-lg">Client Logo</p>
+                            <p class="client-text client-logo-three d-none d-md-block col-lg">Client Logo</p>
+                            <p class="client-text client-logo-four d-none d-md-block col-lg">Client Logo</p>
+                            <p class="client-text client-logo-five d-none d-md-block col-lg">Client Logo</p>
                         </div>
                     </div>
                 </div>
@@ -335,11 +361,11 @@
         <section class="section footer-section section-two-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col footer-div-one">
+                    <div class="col-10 col-lg-3 footer-div-one">
                         <h3 class="footer-header">About Us</h3>
-                        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+                        <p class="footer-text bold-text grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
                             eaque reprehenderit praesentium ducimus, odio explicabo?</p>
-                        <p class="footer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore animi
+                        <p class="footer-text italic-text grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore animi
                             mollitia omnis corrupti molestiae nostrum voluptates iure saepe, exercitationem tenetur,
                             quam non ratione laboriosam eligendi dolorem cumque ex labore. Tempora temporibus
                             perspiciatis quos tenetur. Quaerat.</p>
@@ -349,31 +375,31 @@
                             </svg><a href="#link">Read more</a>
                         </div>
                     </div>
-                    <div class="col footer-div-two">
+                    <div class="col-10 col-lg-3 footer-div-two">
                         <h3 class="footer-header">Our Blog</h3>
                         <!-- first p Needs to be white -->
                         <p class="footer-text white-text">Lorem ipsum dolor sit.</p>
-                        <p class="footer-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
+                        <p class="footer-text grey-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
                             praesentium debitis quis et voluptatibus impedit!</p>
                         <!-- Put a line here in the CSS -->
                         <div class="line"></div>
                         <!--first p needs to be white -->
                         <p class="footer-text white-text">Lorem ipsum dolor sit.</p>
-                        <p class="footer-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
+                        <p class="footer-text grey-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
                             praesentium debitis quis et voluptatibus impedit!</p>
                     </div>
-                    <div class="col footer-div-three">
+                    <div class="col-10 col-lg-3 footer-div-three">
                         <h3 class="footer-header">Out Flicker</h3>
                     </div>
-                    <div class="col footer-div-four">
+                    <div class="col-10 col-lg-3 footer-div-four">
                         <h3 class="footer-header">
                             Get In Touch
                         </h3>
                         <ul class="contact">
-                            <li class="contact-list-item">8901 Marmora Road Glasgow,DO4 89GR</li>
-                            <li class="contact-list-item">Freephone: +1 800 559 6580</li>
-                            <li class="contact-list-item">Telephone: +1 959 603 6035</li>
-                            <li class="contact-list-item">FAX: +1 504 889 9898</li>
+                            <li class="contact-list-item grey-text">8901 Marmora Road Glasgow,DO4 89GR</li>
+                            <li class="contact-list-item grey-text">Freephone: +1 800 559 6580</li>
+                            <li class="contact-list-item grey-text">Telephone: +1 959 603 6035</li>
+                            <li class="contact-list-item grey-text">FAX: +1 504 889 9898</li>
                             <li class="contact-list-item white-text">E-mail: mail@demolink.org</li>
                         </ul>
                     </div>
@@ -382,8 +408,8 @@
         </section>
         <section class="section footer-section section-three-footer">
             <div class="container">
-                <div class="row">
-                    <div class="colophon col-2">
+                <div class="row text-center justify-content-center justify-content-lg-start text-lg-left">
+                    <div class="colophon col-4">
                         <p class="colophon-header logo">
                             Restaurant
                         </p>

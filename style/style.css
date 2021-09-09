@@ -19,13 +19,15 @@
 }   
 
 /* GeneralRules */
-
+.clear{
+    clear: both;
+}
 /* Header Rules */
 .section-one-header{
     background-color: var(--topheader);
 }
 
-.top-header-nav-icon-list .icon{
+.top-header-nav-icon-list .icon {
     color: white;
     font-size: 18px;
 }
@@ -33,6 +35,31 @@
 .section-two-header{
     background: var(--header);
 }
+
+.nav-text{
+    font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));;
+}
+
+.search-form-header{
+    border: 1px solid grey;
+}
+
+.input-background{
+    background: beige;
+}
+
+@media (min-width: 400px) and (max-width:767px){
+    .search-form-header{
+        width: 65%;
+    }
+}
+
+@media (min-width: 767px) and (max-width:1400px){
+    .search-form-header{
+        width: 20%;
+    }
+}
+
 
 .logo{
     font-family: 'Lato', sans-serif;
@@ -50,7 +77,14 @@
     background-color:beige;
     color: var(--header);
 }
-
+.search-form-header .button-header{
+    background: var(--mainbg);
+    border: 1px solid var(--mainbg);
+    border-radius: 5%;
+}
+.search-form-header .icon{
+    color: black;
+}
 /* Main Rules */
 .section-one-main{
     background: var(--mainbg) ;
@@ -145,12 +179,30 @@
 
 
 /* Footer Rules */
+
+.footer-text{
+    font-size: calc(10px + (12 - 10) * ((100vw - 300px) / (1600 - 300)));;
+}
+
+.footer-header{
+    font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));;
+    font-family: var(--clientlogo3);
+    color: white;
+}
+
+.contact-list-item{
+    font-size: calc(10px + (12 - 10) * ((100vw - 300px) / (1600 - 300)));;
+}
+
 .section-one-footer{
     background: var(--footerbg1);
 }
 
 .client-text{
-    font-size: 25px;
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));;
+    opacity: .6;
+    color: lightgray;
+    margin: 5px 0px;
 }
 
 .client-logo-one{
@@ -183,12 +235,30 @@
 .white-text{
     color: white;
 }
+
+.grey-text{
+    color: grey;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.italic-text{
+    font-style: italic;
+}
+
 .section-three-footer{
     background: var(--footerbg3);
 }
 
+.colophon-header{
+    font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1600 - 300)));;
+}
+
 .colophon-text{
     color: white;
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));;
 }
 
 
