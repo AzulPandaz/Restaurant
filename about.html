@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Restaurant</title>
 </head>
-
+<!-- The about me summed up is pretty much the same except main sections 2 and 3 are cut out. with 3/4 of about and the other 1/4 with two pictures. We also need (why am I talking thrid person) the section two to be partly covered up. Most likley used with z index. Lastly also need to make it a mobile version-->
 <body>
 
     <header class="header" id="header">
@@ -95,7 +95,7 @@
                         <div class="header-nav">
                             <ul class="nav lower-header-nav-list justify-content-around ">
                                 <li class="lower-nav-item">
-                                    <a href="/about.html" class="header-link"><p class="nav-text text btn button-header">ABOUT</p></a>
+                                    <p class="nav-text text btn button-header">ABOUT</p>
                                 </li>
                                 <li class="lower-nav-item">
                                     <p class="nav-text text btn button-header">EVENTS</p>
@@ -149,7 +149,7 @@
                 </div>
             </div>
         </section>
-        <section class="section main-section section-two-main position-relative">
+        <section class="section main-section section-two-main section-two-main-about position-relative">
             <!-- This section is for the carousel-->
             <!-- Need the images -->
             <div class="side-cover top-side-cover"></div>
@@ -176,64 +176,59 @@
                 <div class="side-cover bottom-side-cover"></div>
             </div>
         </section>
-        <section class="section main-section section-three-main">
+        <section class="section main-section section-three-main about-section-three-main">
             <!-- This section is for the pictures -->
             <!-- Make them Cards if you hate yourself but it is not a bad idea! -->
             <!-- HAVE TO BE RESPONSIVE -->
             <div class="container">
                 <div class="row">
                     <!-- Need margin qurey so that they are evenly spaced -->
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-8">
                         <div class="card">
-                            <img src="Media/open24.PNG " class="card-img-top img-fluid" alt="...">
+                            <div class="card-header header-main">
+                                <h2>
+                                    About Us
+                                </h2>
+                            </div>
                             <div class="card-body">
-                                <p class="card-body header-main">Location Finder</p>
-                                <p class="card-body card-body-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="main-text card-body-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet minus ut laudantium laborum ipsa assumenda quo nobis aperiam quasi voluptatem! Labore eius molestiae odio cupiditate. Suscipit dolorem nisi officiis! Nesciunt, ullam vero? Molestiae illo perferendis aliquam itaque debitis repellat non sunt ipsam eius distinctio. Dolore assumenda vero alias velit accusamus sequi ullam magnam dolores natus omnis ut nam fugiat esse, veritatis doloribus illum iusto perspiciatis minima, incidunt perferendis aliquid culpa odio officia? Minus repellat optio quis totam ad eos deserunt suscipit vero praesentium neque veniam, animi voluptates doloribus, unde delectus expedita dolorum non. Expedita sapiente obcaecati ut, facere explicabo assumenda cumque tempore ducimus, vel, molestias nihil. Tempora, impedit mollitia ipsum quia non officiis consequatur tempore, quas iure aperiam dolorem voluptates.
+                            </p>
+                            <p class="main-text text card-body-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea molestias debitis, dolores vero voluptatem in exercitationem saepe officia pariatur.
+                            </p>
+                            <p class="main-text text card-body-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt necessitatibus commodi quibusdam rerum eos similique doloremque placeat quia odio, reiciendis itaque veritatis enim deleniti ipsa aspernatur quod quo dicta repellendus facilis exercitationem quidem repellat omnis magnam? Iure illo, vel animi sunt vitae vero repellat dolor praesentium eius voluptatem amet voluptatum, aperiam repudiandae neque officia veritatis pariatur earum unde odio ea corporis nisi dignissimos labore. Quidem earum iusto accusantium, autem ex molestias id qui vitae molestiae dolorum repellendus deserunt optio inventore dolore ratione, suscipit dicta rerum nulla nam rem beatae architecto asperiores deleniti aliquam! Quaerat, quas, sunt quidem beatae earum iure illo nobis non minima dolorem error suscipit recusandae iste quos.
+                            </p>
+                            <p class="main-text text card-body-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea molestias debitis, dolores vero voluptatem in exercitationem saepe officia pariatur.
+                            </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4">
-                        <div class="card">
-                            <img src="Media/burger.PNG" class="card-img-top img-fluid" alt="">
-                            <div class="card-body">
-                                <p class="card-body header-main">Food Quality & Menu</p>
-                                <p class="card-body card-body-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <img src="Media/open24.PNG " class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-body header-main">Location Finder</p>
+                                            <p class="card-body card-body-text">Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card">
-                            <img src="Media/chef.PNG" class="card-img-top img-fluid" alt="...">
-                            <div class="card-body">
-                                <p class="card-body header-main">Employment</p>
-                                <p class="card-body card-body-text">Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card">
-                            <img src="Media/ourstory.PNG" class="card-img-top img-fluid" alt="...">
-                            <div class="card-body">
-                                <p class="card-body header-main">Our Story</p>
-                                <p class="card-body card-body-text">Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card">
-                            <img src="Media/martini.PNG" class="card-img-top img-fluid" alt="...">
-                            <div class="card-body">
-                                <p class="card-body header-main">Promotions</p>
-                                <p class="card-body card-body-text">Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card">
-                            <img src="Media/freshidea.PNG" class="card-img-top img-fluid" alt="...">
-                            <div class="card-body">
-                                <p class="card-body header-main">Fresh Ideas</p>
-                                <p class="card-body card-body-text">Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="col-12">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <img src="Media/burger.PNG" class="card-img-top img-fluid" alt="">
+                                        <div class="card-body">
+                                            <p class="card-body header-main">Food Quality & Menu</p>
+                                            <p class="card-body card-body-text">Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

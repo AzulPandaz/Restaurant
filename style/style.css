@@ -30,46 +30,32 @@
 .top-header-nav-icon-list .icon {
     color: white;
     font-size: 18px;
+    margin: 5px 0px;
 }
 
 .section-two-header{
-    background: var(--header);
+    background: rgb(223,71,58);
+    background: linear-gradient(0deg, rgba(223,71,58,1) 86%, rgba(255,110,110,1) 100%);
 }
 
 .nav-text{
     font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));;
 }
 
-.search-form-header{
-    border: 1px solid grey;
-}
-
-.input-background{
-    background: beige;
-}
-
-@media (min-width: 400px) and (max-width:767px){
-    .search-form-header{
-        width: 65%;
-    }
-}
-
-@media (min-width: 767px) and (max-width:1400px){
-    .search-form-header{
-        width: 20%;
-    }
-}
 
 
 .logo{
     font-family: 'Lato', sans-serif;
     color: white;
+    margin: 15px 0px;
 }
 
-.button-header{
+.section-two-header .button-header{
     background: var(--header);
     color: white;
     font-family: var(--text);
+    margin-bottom: 0px;
+    margin: 20px 0px;
 }
 
 .button-header:hover{
@@ -79,8 +65,6 @@
 }
 .search-form-header .button-header{
     background: var(--mainbg);
-    border: 1px solid var(--mainbg);
-    border-radius: 5%;
 }
 .search-form-header .icon{
     color: black;
@@ -92,6 +76,32 @@
 
 .slogan{
     font-family: var(--mainheaderfont);
+    margin: 10px 0px;
+    font-size: calc(12px + (22 - 12) * ((100vw - 300px) / (1600 - 300)));;
+}
+
+.search-form-header{
+    border: 1px solid grey;
+}
+
+.input-background{
+    background: beige;
+}
+
+.search-form-header{
+    width: 25%;
+    margin: 10px 0px;
+}
+
+@media (min-width: 400px) and (max-width:767px){
+    .search-form-header{
+        width: 65%;
+    }
+}
+
+.section-two-main-about{
+    z-index: -1;
+    margin-bottom: -20%;
 }
 
 .top-side-cover{
@@ -124,12 +134,20 @@
     background: var(--mainbg2);
 }
 
+.about-section-three-main{
+    z-index: 4;
+}
+
 .section-three-main .header-main{
     color: var(--header);
     font-family: var(--headerfont);
     font-size: 25px;
     margin: 0px;
     padding: 0px;
+}
+
+.section-three-main .card{
+    margin: 20px 0px;
 }
 
 .card-body-text{
@@ -159,7 +177,7 @@
 }
 
 
-.link-div .icon, .link-div a{
+.section-four-main .link-div .icon, .link-div a{
     color: var(--header);
     font-family: var(--clientlogo1);
 }
@@ -207,6 +225,18 @@
 
 .client-logo-one{
     font-family: var(--clientlogo1);
+}
+
+@media (min-width:545px) and (max-width:768px) {
+    .client-logo-one{
+        font-size: 40px;
+    }
+}
+
+@media (min-width:545px) and (max-width:768px) {
+    .client-logo-two{
+        font-size: 40px;
+    }
 }
 
 .client-logo-two{
