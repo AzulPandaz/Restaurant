@@ -3,7 +3,7 @@
     --header: #df473a;
     --mainbg: #fff8ce;
     --mainbg2: #f5eedc;
-    --mainbg3: #f9f5ea;
+    --mainbg3: #f0c246;
     --green: #999e03;
     --footerbg1: #66635e ;
     --footerbg2: #5c5954 ;
@@ -21,6 +21,11 @@
 /* GeneralRules */
 .clear{
     clear: both;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0%;
 }
 /* Header Rules */
 .section-one-header{
@@ -158,7 +163,7 @@
 }
 
 .section-four-main{
-    background: var(--mainbg3);
+    background: var(--mainbg);
 }
 
 .section-four-main p{
@@ -241,18 +246,22 @@
 
 .client-logo-two{
     font-family: var(--clientlogo2);
+    border-left: 1px solid grey;
 }
 
 .client-logo-three{
     font-family: var(--clientlogo3);
+    border-left: 1px solid grey;
 }
 
 .client-logo-four{
     font-family: var(--clientlogo4);
+    border-left: 1px solid grey;
 }
 
 .client-logo-five{
     font-family: var(--clientlogo5);
+    border-left: 1px solid grey;
 }
 
 .section-two-footer{
@@ -289,6 +298,10 @@
 .colophon-text{
     color: white;
     font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));;
+}
+
+.footer a{
+    text-decoration: underline;
 }
 
 
